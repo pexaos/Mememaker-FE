@@ -6,21 +6,20 @@
   justify-content: space-around;
   width: 300px;
   height: 400px;
-  background-color: rgb(224, 231, 216);
-}
 
-.img-wrapper {
-  height: 50%;
-  width: 100%;
-  display: flex;
-}
+  .img-wrapper {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 
-.meme-img {
-  height: auto;
-  width: 250px;
-  display: flex;
-}
-img {
-  height: auto;
-  width: 30px;
+    .meme-img {
+      height: 100%;
+      width: auto;
+    }
+  }
+  img {
+    height: 30px;
+    width: auto;
+  }
 }

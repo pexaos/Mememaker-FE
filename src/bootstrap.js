@@ -9,7 +9,8 @@ import "./style/main.scss";
 
 const routes = {
   "/": () => <App />,
-  "/form": () => <MemeForm />
+  "/form": () => <MemeForm />,
+  "/form/:id": ({ id }) => <MemeForm id={id} editMode={true} />
 };
 
 function Main() {
@@ -23,4 +24,5 @@ function Main() {
     </div>
   );
 }
+
 ReactDOM.render(<Main />, document.querySelector(".app-wrapper"));
